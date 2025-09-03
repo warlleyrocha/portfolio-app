@@ -1,0 +1,63 @@
+{
+  "header": {
+    "tabs": {
+      "projects": "Projects",
+      "about": "About Me"
+    },
+    "resume": "Resume"
+  },
+  "intro": {
+    "greeting": "Hi! I'm Warlley Rocha",
+    "role": "Front-End Developer",
+    "description": "Specialist in <highlight>React, TailwindCSS and TypeScript</highlight>.",
+    "download_cv": "Download CV"
+  },
+  "projects": {
+    "subtitle": "A few of my creative endeavors.",
+    "title": "Curious to <highlight>see</highlight> my work?",
+    "list": {
+      "eden": {
+        "name": "Éden (Mini ERP)",
+        "description": "Multi-tenant platform with finance, inventory, and CRM modules, offering client management, quotes, cash flow control, PDF reports, and inventory tracking."
+      },
+      "insucheck": {
+        "name": "InsuCheck",
+        "description": "Mobile app for diabetes treatment management. Centralizes user health data & provides visual dashboards."
+      },
+      "nucleo": {
+        "name": "Núcleo Corp",
+        "description": "Landing Page of the Núcleo Corporation record label."
+      },
+      "maisa": {
+        "name": "Maisa Alves - Holistic Therapies",
+        "description": "Website template for integrative therapies developed with Bootstrap."
+      }
+    }
+  },
+  "buttons": {
+    "code": "Code",
+    "demo": "Demo"
+  },
+  "about": {
+    "subtitle": "Want to know more?",
+    "title": "A bit <highlight>about</highlight> me",
+    "intro": "I am . . .",
+    "benefits": {
+      "self_taught": {
+        "name": "A self-taught developer",
+        "description": "The technologies I use today, I learned on my own through forums, documentation, courses, and free internet resources."
+      },
+      "clean_code": {
+        "name": "Clean code developer",
+        "description": "I like to organize my code consistently, using precise logical structures and fewer lines to make maintenance and adding features more practical."
+      },
+      "api_integration": {
+        "name": "Experienced in API Integration",
+        "description": "I ensure efficient communication between front-end and back-end systems."
+      }
+    }
+  },
+  "footer": {
+    "title": "Let’s Connect"
+  }
+}

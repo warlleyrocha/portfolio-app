@@ -1,0 +1,63 @@
+{
+  "header": {
+    "tabs": {
+      "projects": "Projetos",
+      "about": "Sobre Mim"
+    },
+    "resume": "Currículo"
+  },
+  "intro": {
+    "greeting": "Olá! Eu sou Warlley Rocha",
+    "role": "Desenvolvedor Front-End",
+    "description": "Especialista em <highlight>React, TailwindCSS e TypeScript</highlight>.",
+    "download_cv": "Baixar Currículo"
+  },
+  "projects": {
+    "subtitle": "Algumas das minhas criações criativas.",
+    "title": "Curioso para <highlight>ver</highlight> meu trabalho?",
+    "list": {
+      "eden": {
+        "name": "Éden (Mini ERP)",
+        "description": "Plataforma multi-tenant com módulos de finanças, estoque e CRM, oferecendo gestão de clientes, orçamentos, controle de caixa, relatórios PDF e rastreamento de estoque."
+      },
+      "insucheck": {
+        "name": "InsuCheck",
+        "description": "Aplicativo móvel para gerenciamento do tratamento de diabetes. Centraliza dados de saúde do usuário e fornece dashboards visuais."
+      },
+      "nucleo": {
+        "name": "Núcleo Corp",
+        "description": "Landing Page da gravadora Núcleo Corporation."
+      },
+      "maisa": {
+        "name": "Maisa Alves - Terapias Holísticas",
+        "description": "Template de site para terapias integrativas desenvolvido com Bootstrap."
+      }
+    }
+  },
+  "buttons": {
+    "code": "Código",
+    "demo": "Demo"
+  },
+  "about": {
+    "subtitle": "Quer saber mais?",
+    "title": "Um pouco <highlight>sobre</highlight> mim",
+    "intro": "Eu sou . . .",
+    "benefits": {
+      "self_taught": {
+        "name": "Desenvolvedor autodidata",
+        "description": "As tecnologias que uso hoje aprendi por conta própria, através de fóruns, documentação, cursos e recursos gratuitos da internet."
+      },
+      "clean_code": {
+        "name": "Desenvolvedor de código limpo",
+        "description": "Gosto de organizar meu código de forma consistente, usando estruturas lógicas precisas e menos linhas para facilitar a manutenção e adicionar funcionalidades com mais praticidade."
+      },
+      "api_integration": {
+        "name": "Experiência em integração de APIs",
+        "description": "Garanto uma comunicação eficiente entre sistemas front-end e back-end."
+      }
+    }
+  },
+  "footer": {
+    "title": "Vamos nos conectar"
+  }
+}
