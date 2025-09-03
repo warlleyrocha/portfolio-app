@@ -1,10 +1,11 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 type StepProps = {
   step: {
     id: string; // id único
-    name: string;
-    description: string;
+    key: string; // chave para tradução
+
     techs?: string[];
     github?: string;
     deploy?: string;
@@ -12,6 +13,7 @@ type StepProps = {
 };
 
 export default function Step({ step }: Readonly<StepProps>) {
+  const { t } = useTranslation();
   return (
     <div
       className="relative flex flex-col gap-4 p-6 sm:p-8 rounded-3xl 
@@ -25,12 +27,12 @@ export default function Step({ step }: Readonly<StepProps>) {
 
       {/* Nome do projeto */}
       <h3 className="relative z-10 font-semibold text-xl sm:text-2xl md:text-3xl pt-4">
-        {step.name}
+        {t(`projects.list.${step.key}.name`)}
       </h3>
 
       {/* Descrição */}
       <p className="relative z-10 text-sm sm:text-base md:text-lg text-slate-100/90">
-        {step.description}
+        {t(`projects.list.${step.key}.description`)}
       </p>
 
       {/* Techs */}
@@ -59,7 +61,7 @@ export default function Step({ step }: Readonly<StepProps>) {
             bg-[#00A40D]/90 text-slate-950 font-medium text-sm 
             hover:bg-[#00A40D] hover:shadow-md transition-all duration-300"
           >
-            <FaGithub /> Code
+            <FaGithub /> {t("buttons.code")}
           </a>
         )}
         {step.deploy && (
@@ -71,7 +73,7 @@ export default function Step({ step }: Readonly<StepProps>) {
             bg-slate-800/40 border border-[#00A40D]/40 text-sm text-[#00A40D] 
             font-medium hover:bg-[#00A40D] hover:text-slate-950 transition-all duration-300"
           >
-            <FaExternalLinkAlt /> Demo
+            <FaExternalLinkAlt /> {t("buttons.demo")}
           </a>
         )}
       </div>

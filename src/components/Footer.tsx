@@ -1,11 +1,14 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="relative w-full bg-slate-950/30 backdrop-blur-lg border-t border-[#00A40D]/20 py-5 flex flex-col items-center justify-center gap-6">
       {/* Título */}
       <p className="px-4 py-1 rounded-full bg-[#00A40D]/20 text-[#00A40D] font-medium text-sm tracking-wide">
-        Let’s Connect
+        {t("footer.title")}
       </p>
 
       {/* Links */}
