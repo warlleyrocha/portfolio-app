@@ -5,7 +5,7 @@ export default function Main() {
   const steps = [
     {
       id: "1",
-      name: "Éden Gestão Empresarial",
+      name: "Éden (Mini ERP)",
       github: "https://github.com/warlleyrocha/eden",
       deploy: "https://eden-generation.vercel.app/",
       description:
@@ -32,7 +32,7 @@ export default function Main() {
     },
     {
       id: "4",
-      name: "Maisa Alves - Terapias Holísticas",
+      name: "Maisa Alves - Holistic Therapies",
       github:
         "https://github.com/warlleyrocha/Maisa-Alves-Terapias-Integrativas",
       deploy: "https://maisa-alves-terapias-integrativas.vercel.app/",
